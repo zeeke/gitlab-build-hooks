@@ -1,0 +1,7 @@
+setup.py
+trello_commit_to_card.py
+gitlab_build_hooks_python.egg-info/PKG-INFO
+gitlab_build_hooks_python.egg-info/SOURCES.txt
+gitlab_build_hooks_python.egg-info/dependency_links.txt
+gitlab_build_hooks_python.egg-info/requires.txt
+gitlab_build_hooks_python.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+personal.sh
+bin/
+lib/
+local/
+include/
+*.pyc
