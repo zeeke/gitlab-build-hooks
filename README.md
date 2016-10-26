@@ -15,10 +15,10 @@ Create a build job in the .gitlab-ci.yml file:
 
 trello_integrations:
   image: zeeke/gitlab-build-hooks
-  script: trello_commit_to_card.py \
-                --gitlab-token <...> \
-                --trello-board-id <...> \
-                --trello-token <...> \
+  script: trello_commit_to_card.py
+                --gitlab-token <...>
+                --trello-board-id <...>
+                --trello-token <...>
                 --trello-api-key <...>
 ```
 
