@@ -9,6 +9,11 @@ RUN \
     python2.7 \
     python-pip
 
-RUN pip install python-gitlab
-RUN pip install py-trello
+RUN mkdir /opt/gitlab
+ADD requirements.txt /opt/gitlab/
+RUN pip install -U -r /opt/gitlab/requirements.txt
+
+ADD trello_commit_to_card.py /opt/gitlab/
+RUN ls -la /opt/gitlab
+ENV PATH /opt/gitlab:$PATH
 
